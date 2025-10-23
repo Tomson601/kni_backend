@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'phishing_quiz',
     'tts',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
