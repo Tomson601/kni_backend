@@ -25,7 +25,8 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "django-insecure-e&ii($=u&es%m7xj7nf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DJANGO_DEBUG", "True") == "True"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kniupp.pl', 'www.kniupp.pl', '127.0.0.1', 'localhost']
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
